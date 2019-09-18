@@ -324,8 +324,9 @@ img {
     .profile-grid .profile-top img {
       width: 250px; }
     .profile-grid .profile-top .icons a {
-      color: #eee;
-      margin: 0 1rem; }
+      color: #eee; }
+      .profile-grid .profile-top .icons a i {
+        margin: 0 0.5rem; }
   .profile-grid .profile-about {
     text-align: center; }
     .profile-grid .profile-about .skills {
@@ -362,4 +363,6 @@ img {
   .profile-about .skills {
     flex-direction: column; }
   .profile-top img {
-    display: none; } }
+    display: none; }
+  .profile-top .icons a i {
+    margin: 0 !important; } }
