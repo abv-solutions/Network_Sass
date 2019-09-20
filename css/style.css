@@ -98,10 +98,12 @@
 
 .x-large {
   font-size: 4rem;
+  line-height: 1.2;
   user-select: none; }
 
 .large {
   font-size: 3rem;
+  line-height: 1.2;
   user-select: none; }
 
 .lead {
@@ -360,9 +362,11 @@ img {
       justify-content: center; }
     .navbar h1 {
       margin-bottom: 1rem; }
+  .container {
+    padding: 0 1rem; }
   .profile-about .skills {
     flex-direction: column; }
   .profile-top img {
-    display: none; }
+    width: 150px !important; }
   .profile-top .icons a i {
     margin: 0 !important; } }
